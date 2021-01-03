@@ -8,11 +8,18 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "@vue/apollo-composable": "^4.0.0-alpha.12",
+    "apollo-link-token-refresh": "^0.3.2",
     "core-js": "^3.6.5",
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
+    "jwt-decode": "^3.1.2",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
+    "@types/jwt-decode": "^3.1.0",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",
