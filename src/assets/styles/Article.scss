@@ -1,0 +1,26 @@
+.article {
+    margin: auto;
+    margin-bottom: 1em;
+    background-color: aqua;
+    width:50%;
+    height:20rem;
+    padding-top: 1.5%;
+    border-radius: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 2%;
+    .text {
+        margin-left: 50%;
+        display: inline;
+        font-size: 27px;
+        height: 90%;
+    }
+    img {
+        height:90%;
+        max-width: 40%;
+        padding-left: 2%;
+        float: left;
+        margin-right: 3%;
+    }
+
+}
